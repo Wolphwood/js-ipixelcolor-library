@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "webbluetooth": "^3.7.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node test/protocol.test.js && node test/sdk.test.js",
+    "check": "node --experimental-vm-modules scripts/check.js"
+  },
+  "name": "js-ipixelcolor-library",
+  "version": "0.1.0",
+  "description": "iPixelColor BLE SDK for browsers and Node.js",
+  "main": "./iPixelColor.js",
+  "license": "CC-BY-SA-4.0",
+  "files": [
+    "iPixelColor.js",
+    "node.js",
+    "bluetooth/",
+    "canvas/",
+    "protocol/",
+    "doc/",
+    "docs/",
+    "examples/",
+    "RESEARCH.md"
+  ]
+}
